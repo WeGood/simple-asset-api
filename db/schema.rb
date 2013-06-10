@@ -11,13 +11,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130610114602) do
+ActiveRecord::Schema.define(:version => 20130610152349) do
 
   create_table "assets", :force => true do |t|
-    t.string   "assetPath"
+    t.text     "assetPath",  :limit => 255
     t.string   "assetName"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
   end
 
 end
