@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  assetPath: MyString
+  assetName: MyString
+
+two:
+  assetPath: MyString
+  assetName: MyString
